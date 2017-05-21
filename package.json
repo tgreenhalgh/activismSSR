@@ -1,0 +1,32 @@
+{
+  "name": "activismSSR",
+  "version": "1.0.0",
+  "description": "FAX your members of Congress, React with Server Side Rendering",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node server.js",
+    "build": "next build",
+    "start": "NODE_ENV=production node server.js",
+    "deploy": "now -e USERID=@userid -e USERPW=@userpw -e UPSKEY=@upskey"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tgreenhalgh/activismSSR.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tgreenhalgh/activismSSR/issues"
+  },
+  "homepage": "https://github.com/tgreenhalgh/activismSSR#readme",
+  "dependencies": {
+    "express": "^4.15.2",
+    "next": "^2.1.1",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "request": "^2.81.0",
+    "reactstrap": "^4.6.2"
+  }
+}
